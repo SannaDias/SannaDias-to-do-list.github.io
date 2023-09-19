@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="header-inner-content">
+            <H1 class="logo"> Tasks </H1>
+            <div class="nav-icon">
+                <img src="img/search-regular-24.png" class="img-search">
+                <button>New Task</button>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="column">
+                <h2>Para Fazer</h2>
+                <ul class="todo-list" id="todo-list">
+                </ul>
+                <div class="add-task">
+                    <input type="text" id="new-task-todo" placeholder="Adicionar nova tarefa">
+                    <button>Adicionar</button>
+                </div>
+            </div>
+            <div class="column">
+                <h2>Em Progresso</h2>
+                <ul class="todo-list" id="in-progress-list">
+                   
+                </ul>
+                <div class="add-task">
+                    <input type="text" id="new-task-in-progress" placeholder="Adicionar nova tarefa em progresso">
+                    <button>Adicionar</button>
+                </div>
+            </div>
+            <div class="column">
+                <h2>Concluídas</h2>
+                <ul class="todo-list" id="completed-list">
+                   
+                </ul>
+            </div>
+        </div>
+    
+        <div class="clear-completed">
+            <button >Limpar Tarefas Concluídas</button>
+        </div>
+    </header>
+</body>
+</html>
